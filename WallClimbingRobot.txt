@@ -210,7 +210,7 @@ void moveRobotAlongPath(JsonArray path) {
   float XPrevPrev = path[0]["x"];
   float YPrevPrev = path[0]["y"];  
   */
-  for ( i ; i < path.size(); i=i+4) {
+  for ( i ; i < path.size(); i=i+1) {
     Serial.println("i");
     Serial.println(i);
     float x = path[i]["x"];
